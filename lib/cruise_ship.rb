@@ -8,4 +8,5 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  passengers.find{|k,v| v[0] == "a" or v[0] == "A"}[1]
 end
